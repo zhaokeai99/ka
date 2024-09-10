@@ -1,0 +1,39 @@
+@import '~antd/es/style/themes/default.less';
+
+@pro-header-hover-bg: rgba(0, 0, 0, 0.025);
+
+.select {
+  color: #d3d3d3 !important;
+  &:hover {
+    color: #fff;
+  }
+  &:global(.opened) {
+    color: #fff;
+  }
+}
+
+.dark {
+  .action {
+    &:hover {
+      background: #252a3d;
+    }
+    &:global(.opened) {
+      background: #252a3d;
+    }
+  }
+}
+
+.item-li {
+  display: inline-block;
+  margin: 0 5px;
+  padding: 0 10px;
+  color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+  &:hover {
+    color: #fff;
+  }
+}
+.active-key {
+  color: #fff;
+  font-weight: 650;
+}

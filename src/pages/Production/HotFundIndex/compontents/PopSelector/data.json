@@ -1,0 +1,336 @@
+[
+  {
+    "colName": "manager_name",
+    "colDesc": "姓名",
+    "colCategory": "M_BASIC",
+    "colCategoryDesc": "基础信息",
+    "colWebType": "INPUT",
+    "colRange": null,
+    "supportQuery": 1,
+    "disabled": true,
+    "supportResult": {
+      "showType": "url",
+      "content": "/production/manegerDetail/${code}",
+      "sorter": true
+    },
+    "searcherType": "FUND_MANAGER"
+  },
+  {
+    "colName": "degree",
+    "colDesc": "学历",
+    "colCategory": "M_BASIC",
+    "colCategoryDesc": "基础信息",
+    "colWebType": "INPUT",
+    "colRange": null,
+    "supportQuery": 1,
+    "supportResult": {
+      "showType": null,
+      "content": null,
+      "sorter": true
+    },
+    "searcherType": "FUND_MANAGER"
+  },
+  {
+    "colName": "head_logo_url",
+    "colDesc": "头像",
+    "colCategory": "M_BASIC",
+    "colCategoryDesc": "基础信息",
+    "colWebType": "IMAGE",
+    "colRange": null,
+    "supportQuery": 0,
+    "supportResult": null,
+    "searcherType": "FUND_MANAGER"
+  },
+  {
+    "colName": "sex",
+    "colDesc": "性别",
+    "colCategory": "M_BASIC",
+    "colCategoryDesc": "基础信息",
+    "colWebType": "ENUM",
+    "colRange": [
+      {
+        "label": "男",
+        "value": "男"
+      },
+      {
+        "label": "女",
+        "value": "女"
+      }
+    ],
+    "supportQuery": 1,
+    "supportResult": {
+      "showType": null,
+      "content": null,
+      "sorter": true
+    },
+    "searcherType": "FUND_MANAGER"
+  },
+  {
+    "colName": "manage_year",
+    "colDesc": "管理年限",
+    "colCategory": "M_BASIC",
+    "colCategoryDesc": "基础信息",
+    "colWebType": "NUMBER",
+    "colRange": null,
+    "supportQuery": 1,
+    "supportResult": {
+      "showType": null,
+      "content": null,
+      "sorter": true
+    },
+    "searcherType": "FUND_MANAGER"
+  },
+  {
+    "colName": "manage_field",
+    "colDesc": "管理领域",
+    "colCategory": "M_INVEST",
+    "colCategoryDesc": "投资信息",
+    "colWebType": "INPUT",
+    "colRange": null,
+    "supportQuery": 1,
+    "supportResult": {
+      "showType": null,
+      "content": null,
+      "sorter": true
+    },
+    "searcherType": "FUND_MANAGER"
+  },
+  {
+    "colName": "manage_scale",
+    "colDesc": "管理规模",
+    "colCategory": "M_INVEST",
+    "colCategoryDesc": "投资信息",
+    "colWebType": "NUMBER",
+    "colRange": null,
+    "supportQuery": 1,
+    "supportResult": {
+      "showType": null,
+      "content": null,
+      "sorter": true
+    },
+    "searcherType": "FUND_MANAGER"
+  },
+  {
+    "colName": "manage_cnt",
+    "colDesc": "在管产品合计",
+    "colCategory": "M_INVEST",
+    "colCategoryDesc": "投资信息",
+    "colWebType": "NUMBER",
+    "colRange": null,
+    "supportQuery": 1,
+    "supportResult": {
+      "showType": null,
+      "content": null,
+      "sorter": true
+    },
+    "searcherType": "FUND_MANAGER"
+  },
+  {
+    "colName": "assist_manage_cnt",
+    "colDesc": "基助在管产品合计",
+    "colCategory": "M_INVEST",
+    "colCategoryDesc": "投资信息",
+    "colWebType": "NUMBER",
+    "colRange": null,
+    "supportQuery": 1,
+    "supportResult": {
+      "showType": null,
+      "content": null,
+      "sorter": true
+    },
+    "searcherType": "FUND_MANAGER"
+  },
+  {
+    "colName": "proposed_manage_cnt",
+    "colDesc": "拟任产品合计",
+    "colCategory": "M_INVEST",
+    "colCategoryDesc": "投资信息",
+    "colWebType": "NUMBER",
+    "colRange": null,
+    "supportQuery": 1,
+    "supportResult": {
+      "showType": null,
+      "content": null,
+      "sorter": true
+    },
+    "searcherType": "FUND_MANAGER"
+  },
+  {
+    "colName": "his_manage_cnt",
+    "colDesc": "历任产品合计",
+    "colCategory": "M_INVEST",
+    "colCategoryDesc": "投资信息",
+    "colWebType": "NUMBER",
+    "colRange": null,
+    "supportQuery": 1,
+    "supportResult": {
+      "showType": null,
+      "content": null,
+      "sorter": true
+    },
+    "searcherType": "FUND_MANAGER"
+  },
+  {
+    "colName": "manager_co",
+    "colDesc": "所属管理人",
+    "colCategory": "M_BASIC",
+    "colCategoryDesc": "基础信息",
+    "colWebType": "INPUT",
+    "colRange": null,
+    "supportQuery": 1,
+    "supportResult": {
+      "showType": null,
+      "content": null,
+      "sorter": true
+    },
+    "searcherType": "FUND_MANAGER"
+  },
+  {
+    "colName": "user_role",
+    "colDesc": "用户角色",
+    "colCategory": "M_BASIC",
+    "colCategoryDesc": "基础信息",
+    "colWebType": "ENUM",
+    "colRange": [
+      {
+        "label": "基金经理",
+        "value": "基金经理"
+      },
+      {
+        "label": "投资经理",
+        "value": "投资经理"
+      },
+      {
+        "label": "基金经理助理",
+        "value": "基金经理助理"
+      }
+    ],
+    "supportQuery": 1,
+    "supportResult": {
+      "showType": null,
+      "content": null,
+      "sorter": true
+    },
+    "searcherType": "FUND_MANAGER"
+  },
+  {
+    "colName": "total_income",
+    "colDesc": "在任收益",
+    "colCategory": "M_INVEST",
+    "colCategoryDesc": "投资信息",
+    "colWebType": "NUMBER",
+    "colRange": null,
+    "supportQuery": 1,
+    "supportResult": {
+      "showType": null,
+      "content": null,
+      "sorter": true
+    },
+    "searcherType": "FUND_MANAGER"
+  },
+  {
+    "colName": "total_max_retreat",
+    "colDesc": "在任最大回撤",
+    "colCategory": "M_INVEST",
+    "colCategoryDesc": "投资信息",
+    "colWebType": "NUMBER",
+    "colRange": null,
+    "supportQuery": 1,
+    "supportResult": {
+      "showType": null,
+      "content": null,
+      "sorter": true
+    },
+    "searcherType": "FUND_MANAGER"
+  },
+  {
+    "colName": "new_stock_position",
+    "colDesc": "最新股票仓位",
+    "colCategory": "M_INVEST",
+    "colCategoryDesc": "投资信息",
+    "colWebType": "NUMBER",
+    "colRange": null,
+    "supportQuery": 1,
+    "supportResult": {
+      "showType": null,
+      "content": null,
+      "sorter": true
+    },
+    "searcherType": "FUND_MANAGER"
+  },
+  {
+    "colName": "awards",
+    "colDesc": "获奖情况",
+    "colCategory": "M_BASIC",
+    "colCategoryDesc": "基础信息",
+    "colWebType": "INPUT",
+    "colRange": null,
+    "supportQuery": 0,
+    "supportResult": {
+      "showType": null,
+      "content": null,
+      "sorter": true
+    },
+    "searcherType": "FUND_MANAGER"
+  },
+  {
+    "colName": "major",
+    "colDesc": "专业",
+    "colCategory": "M_BASIC",
+    "colCategoryDesc": "基础信息",
+    "colWebType": "INPUT",
+    "colRange": null,
+    "supportQuery": 0,
+    "supportResult": {
+      "showType": null,
+      "content": null,
+      "sorter": true
+    },
+    "searcherType": "FUND_MANAGER"
+  },
+  {
+    "colName": "resume",
+    "colDesc": "简历",
+    "colCategory": "M_BASIC",
+    "colCategoryDesc": "基础信息",
+    "colWebType": "INPUT",
+    "colRange": null,
+    "supportQuery": 0,
+    "supportResult": {
+      "showType": null,
+      "content": null,
+      "sorter": true
+    },
+    "searcherType": "FUND_MANAGER"
+  },
+  {
+    "colName": "manager_domain",
+    "colDesc": "域账号",
+    "colCategory": "M_BASIC",
+    "colCategoryDesc": "基础信息",
+    "colWebType": "INPUT",
+    "colRange": null,
+    "supportQuery": 0,
+    "supportResult": {
+      "showType": "url",
+      "content": "/production/manegerDetail/${code}",
+      "sorter": true
+    },
+    "searcherType": "FUND_MANAGER"
+  },
+  {
+    "colName": "code",
+    "colDesc": "ID",
+    "colCategory": "M_BASIC",
+    "colCategoryDesc": "基础信息",
+    "colWebType": "INPUT",
+    "colRange": null,
+    "supportQuery": 0,
+    "supportResult": {
+      "showType": "url",
+      "content": "/production/manegerDetail/${code}",
+      "sorter": true
+    },
+    "searcherType": "FUND_MANAGER"
+  }
+]

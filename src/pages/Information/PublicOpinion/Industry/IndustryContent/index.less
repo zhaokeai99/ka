@@ -1,0 +1,97 @@
+.industry-content-container {
+  .trend-search-form {
+    :global {
+      .ant-form-item-control-input {
+        min-height: 24px;
+      }
+    }
+  }
+
+  .list-card-box {
+    width: 100%;
+    :global {
+      .ant-list-item-action li {
+        width: 100%;
+        overflow: hidden;
+      }
+      .ant-list-item-action {
+        margin-top: 8px;
+      }
+    }
+    .list-card-item {
+      padding-top: 8px;
+      padding-bottom: 8px;
+      cursor: pointer;
+
+      .list-title {
+        width: 100%;
+        margin-bottom: 4px;
+        color: rgba(0, 0, 0, 0.85);
+        font-size: 14px;
+        transition: 100ms;
+        .list-title-child {
+          &:hover {
+            color: #1890ff;
+          }
+        }
+      }
+
+      .list-desc {
+        display: -webkit-box;
+        width: 100%;
+        overflow: hidden;
+        color: rgba(0, 0, 0, 0.65);
+        font-size: 12px;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+      }
+
+      .list-footer {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        overflow: hidden;
+        .list-footer-date {
+          color: rgba(0, 0, 0, 0.45);
+          font-size: 12px;
+        }
+        .list-footer-from {
+          color: rgba(0, 0, 0, 0.45);
+          font-size: 12px;
+        }
+        .list-footer-tag {
+          flex: 1;
+          margin-right: 8px;
+          margin-left: 8px;
+          overflow: hidden;
+          white-space: nowrap;
+          text-align: left;
+          text-overflow: ellipsis;
+        }
+        .list-footer-author {
+          color: rgba(0, 0, 0, 0.45);
+          font-size: 12px;
+        }
+        .list-footer-divider {
+          background-color: rgba(0, 0, 0, 0.45);
+        }
+      }
+    }
+  }
+
+  .select-menu-box {
+    width: 100%;
+    .select-menu {
+      border-right: none;
+    }
+  }
+
+  .trend-empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+}

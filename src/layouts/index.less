@@ -1,0 +1,17 @@
+@import '~@/themes/index.less';
+
+.header-area {
+  display: flex;
+  flex-direction: row;
+  padding-right: 10px;
+  align-items: center;
+}
+
+.page-wrap {
+  :global {
+    .ant-layout-header,
+    .top-nav-menu {
+      background: @layout-header-background !important;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.tree-style {
+  :global(.ant-tree-switcher) {
+    color: #333;
+    background-color: transparent;
+  }
+}
+
+.node-item-container {
+  display: flex;
+  justify-content: space-between;
+  .node-right-actions {
+    visibility: hidden;
+  }
+  .text-ellipsis {
+    max-width: 150px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}
+
+.node-item-container:hover {
+  .node-right-actions {
+    visibility: visible;
+  }
+}

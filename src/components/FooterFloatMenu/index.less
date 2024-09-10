@@ -1,0 +1,131 @@
+@import '~@/themes/index.less';
+
+// &::-webkit-scrollbar {
+//   display: none;
+// }
+.container {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 100000;
+  display: flex;
+  flex-direction: row;
+  min-width: 1px;
+  overflow-y: auto;
+
+  .area {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 70px;
+    height: 240px;
+    margin-right: -50px;
+    padding-bottom: 20px;
+    visibility: 0;
+    opacity: 1;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+    transition: 0.6s;
+
+    .icon-back {
+      width: 50px;
+      height: 50px;
+      background-image: url('https://cdnprod.tianhongjijin.com.cn/thfile/back_n1651130927011.png');
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
+    .icon-back:hover {
+      background-image: url('https://cdnprod.tianhongjijin.com.cn/thfile/back_h1651130927011.png');
+    }
+    .icon-subscribe {
+      width: 50px;
+      height: 50px;
+      background-image: url('https://cdnprod.tianhongjijin.com.cn/thfile/subscribe_n1651130923010.png');
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
+    .icon-subscribe:hover {
+      background-image: url('https://cdnprod.tianhongjijin.com.cn/thfile/subcribe_h1651130927012.png');
+    }
+    .icon-consult {
+      width: 50px;
+      height: 50px;
+      background-image: url('https://cdnprod.tianhongjijin.com.cn/thfile/contact_n1651130927012.png');
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
+    .icon-consult:hover {
+      background-image: url('https://cdnprod.tianhongjijin.com.cn/thfile/contact_h1651130927012.png');
+    }
+    .icon-newguide {
+      width: 50px;
+      height: 50px;
+      background-image: url('https://cdnprod.tianhongjijin.com.cn/thfile/新手引导默认1657705003216.png');
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
+    .icon-newguide:hover {
+      background-image: url('https://cdnprod.tianhongjijin.com.cn/thfile/新手引导hover1657705003223.png');
+    }
+  }
+  .area-active {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 70px;
+    height: 240px;
+    margin-right: 0;
+    padding-bottom: 20px;
+    visibility: 1;
+    opacity: 0;
+    opacity: 1;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+    transition: 0.6s;
+
+    .icon-back {
+      width: 50px;
+      height: 50px;
+      background-image: url('https://cdnprod.tianhongjijin.com.cn/thfile/back_n1651130927011.png');
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
+    .icon-back:hover {
+      background-image: url('https://cdnprod.tianhongjijin.com.cn/thfile/back_h1651130927011.png');
+    }
+    .icon-subscribe {
+      width: 50px;
+      height: 50px;
+      background-image: url('https://cdnprod.tianhongjijin.com.cn/thfile/subscribe_n1651130923010.png');
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
+    .icon-subscribe:hover {
+      background-image: url('https://cdnprod.tianhongjijin.com.cn/thfile/subcribe_h1651130927012.png');
+    }
+    .icon-consult {
+      width: 50px;
+      height: 50px;
+      background-image: url('https://cdnprod.tianhongjijin.com.cn/thfile/contact_n1651130927012.png');
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
+    .icon-consult:hover {
+      background-image: url('https://cdnprod.tianhongjijin.com.cn/thfile/contact_h1651130927012.png');
+    }
+    .icon-newguide {
+      width: 50px;
+      height: 50px;
+      background-image: url('https://cdnprod.tianhongjijin.com.cn/thfile/新手引导默认1657705003216.png');
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
+    .icon-newguide:hover {
+      background-image: url('https://cdnprod.tianhongjijin.com.cn/thfile/新手引导hover1657705003223.png');
+    }
+  }
+}

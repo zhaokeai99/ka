@@ -1,0 +1,55 @@
+.title {
+  margin-top: 16px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.item-content {
+  display: flex;
+  flex-direction: row;
+  padding-top: 6px;
+  > div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100px;
+    margin-right: 8px;
+    line-height: 20px;
+    .point {
+      width: 8px;
+      height: 8px;
+      margin-right: 10px;
+      border-radius: 4px;
+    }
+  }
+  .first {
+    justify-content: flex-start;
+    width: 110px;
+    font-weight: 500;
+  }
+}
+
+.all-tooltip-item {
+  display: flex;
+  flex-direction: column;
+  padding-top: 6px;
+  > div {
+    display: inline-flex;
+    justify-content: space-between;
+    font-size: 12px;
+    line-height: 25px;
+    > label {
+      display: inline-flex;
+      align-items: center;
+      margin-right: 45px;
+    }
+    > label::before {
+      width: 8px;
+      height: 8px;
+      margin-right: 10px;
+      background-color: #5b8ff9;
+      border-radius: 4px;
+      content: '';
+    }
+  }
+}

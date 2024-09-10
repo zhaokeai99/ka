@@ -1,0 +1,1723 @@
+{
+  "records": [
+    {
+      "roadShowMeetingDO": {
+        "gmtCreate": "2022-09-15 13:30:39",
+        "creator": "niuhl",
+        "gmtModify": null,
+        "modifior": null,
+        "id": "170888689755361280",
+        "meetingSubject": "xinxintest",
+        "meetingType": "1",
+        "meetingForm": "2",
+        "room": "测试刘新新",
+        "roadShowAddress": "北京，天津",
+        "roadShowDate": null,
+        "roadShowStartTime": "2022-09-16T05:05:30.000+00:00",
+        "roadShowEndTime": "2022-09-16T06:00:00.000+00:00",
+        "publicToAll": false,
+        "digest": "测试非公开",
+        "cancel": false,
+        "yesOrNo": false,
+        "customerName": "321",
+        "participants": "[{\"groupName\":\"刘新新\",\"name\":\"liuxx\",\"participantType\":\"0\",\"realName\":\"刘新新\",\"roadShowParticipants\":[]}]",
+        "presenters": "[{\"name\":\"liuxx\",\"presenterType\":\"0\",\"realName\":\"刘新新\"}]",
+        "organizer": "{\"name\":\"liuxx\",\"realName\":\"刘新新\"}",
+        "version": 0
+      },
+      "roadShowMeetingAttachmentDomainList": null,
+      "roadShowMeetingPresenterDomainList": [
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170888689809899520",
+          "meetingId": "170888689755361280",
+          "domainAccount": "liuxx",
+          "presenterName": "刘新新",
+          "presenterEmail": null,
+          "presenterCellphone": null,
+          "presenterIntroduce": null,
+          "presenterType": "0"
+        }
+      ],
+      "roadShowMeetingParticipantDomainList": [
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170888689797312512",
+          "meetingId": "170888689755361280",
+          "participantType": null,
+          "participantName": "刘新新",
+          "participantAccount": "liuxx"
+        }
+      ]
+    },
+    {
+      "roadShowMeetingDO": {
+        "gmtCreate": "2022-09-15 10:33:42",
+        "creator": "niuhl",
+        "gmtModify": "2022-09-15 17:06:32",
+        "modifior": "liuxx",
+        "id": "170844158846570496",
+        "meetingSubject": "技术部测试路演",
+        "meetingType": "1",
+        "meetingForm": "2",
+        "room": "java会议室",
+        "roadShowAddress": "北京，天津",
+        "roadShowDate": null,
+        "roadShowStartTime": "2022-09-15T02:54:35.000+00:00",
+        "roadShowEndTime": "2022-09-15T03:00:00.000+00:00",
+        "publicToAll": false,
+        "digest": "测试路演",
+        "cancel": false,
+        "yesOrNo": false,
+        "customerName": "中国银行",
+        "participants": "[{\"groupName\":\"刘新新\",\"name\":\"liuxx\",\"participantType\":\"0\",\"realName\":\"刘新新\",\"roadShowParticipants\":[]}]",
+        "presenters": "[{\"name\":\"liuxx\",\"presenterType\":\"0\",\"realName\":\"刘新新\"}]",
+        "organizer": "{\"name\":\"liuxx\",\"realName\":\"刘新新\"}",
+        "version": 2
+      },
+      "roadShowMeetingAttachmentDomainList": [
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170943018776403968",
+          "meetingId": "170844158846570496",
+          "fileName": "ji2.png",
+          "fileUrl": "http://thpublic.oss-cn-hzfinance.aliyuncs.com/fundsalescrm/pre/ji21663209219733.png",
+          "fileType": "image/png"
+        }
+      ],
+      "roadShowMeetingPresenterDomainList": [
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170943018776412160",
+          "meetingId": "170844158846570496",
+          "domainAccount": "liuxx",
+          "presenterName": "刘新新",
+          "presenterEmail": null,
+          "presenterCellphone": null,
+          "presenterIntroduce": null,
+          "presenterType": "0"
+        }
+      ],
+      "roadShowMeetingParticipantDomainList": [
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170943018776408064",
+          "meetingId": "170844158846570496",
+          "participantType": null,
+          "participantName": "刘新新",
+          "participantAccount": "liuxx"
+        }
+      ]
+    },
+    {
+      "roadShowMeetingDO": {
+        "gmtCreate": "2022-09-13 14:42:07",
+        "creator": "niuhl",
+        "gmtModify": "2022-09-15 17:06:26",
+        "modifior": "liuxx",
+        "id": "170181901082955776",
+        "meetingSubject": "测试",
+        "meetingType": "1",
+        "meetingForm": "2",
+        "room": "测试",
+        "roadShowAddress": "北京",
+        "roadShowDate": null,
+        "roadShowStartTime": "2022-09-14T07:41:39.000+00:00",
+        "roadShowEndTime": "2022-09-14T07:59:00.000+00:00",
+        "publicToAll": false,
+        "digest": "测试111",
+        "cancel": false,
+        "yesOrNo": false,
+        "customerName": "中国银行",
+        "participants": "[{\"groupName\":\"刘新新\",\"name\":\"liuxx\",\"participantType\":\"0\",\"realName\":\"刘新新\",\"roadShowParticipants\":[]}]",
+        "presenters": "[{\"name\":\"liuxx\",\"presenterType\":\"0\",\"realName\":\"刘新新\"}]",
+        "organizer": "{\"name\":\"liuxx\",\"realName\":\"刘新新\"}",
+        "version": 3
+      },
+      "roadShowMeetingAttachmentDomainList": null,
+      "roadShowMeetingPresenterDomainList": [
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942993954521088",
+          "meetingId": "170181901082955776",
+          "domainAccount": "liuxx",
+          "presenterName": "刘新新",
+          "presenterEmail": null,
+          "presenterCellphone": null,
+          "presenterIntroduce": null,
+          "presenterType": "0"
+        }
+      ],
+      "roadShowMeetingParticipantDomainList": [
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942993954516992",
+          "meetingId": "170181901082955776",
+          "participantType": null,
+          "participantName": "刘新新",
+          "participantAccount": "liuxx"
+        }
+      ]
+    },
+    {
+      "roadShowMeetingDO": {
+        "gmtCreate": "2022-09-08 10:11:58",
+        "creator": "niuhl",
+        "gmtModify": "2022-09-15 17:06:15",
+        "modifior": "liuxx",
+        "id": "168301977774592000",
+        "meetingSubject": "测试路演固收",
+        "meetingType": "1",
+        "meetingForm": "2",
+        "room": "java",
+        "roadShowAddress": "北京",
+        "roadShowDate": null,
+        "roadShowStartTime": "2022-09-12T02:34:11.000+00:00",
+        "roadShowEndTime": "2022-09-12T03:00:00.000+00:00",
+        "publicToAll": false,
+        "digest": "测试",
+        "cancel": false,
+        "yesOrNo": false,
+        "customerName": "中国银行",
+        "participants": "[{\"groupName\":\"刘新新\",\"name\":\"liuxx\",\"participantType\":\"0\",\"realName\":\"刘新新\",\"roadShowParticipants\":[]},{\"groupName\":\"共创技术组\",\"name\":\"GR0001\",\"participantType\":\"1\",\"realName\":\"共创技术组\",\"roadShowParticipants\":[{\"name\":\"yangzs\",\"realName\":\"杨紫舒\"},{\"name\":\"yuanl\",\"realName\":\"袁琳\"},{\"name\":\"niuhl\",\"realName\":\"牛宏亮\"},{\"name\":\"wangying02\",\"realName\":\"王莹\"},{\"name\":\"wangwg\",\"realName\":\"王卫国\"},{\"name\":\"xuemf\",\"realName\":\"薛梦飞\"},{\"name\":\"yangzj\",\"realName\":\"杨子骏\"},{\"name\":\"zhangmy\",\"realName\":\"张梦雨\"},{\"name\":\"wuwh\",\"realName\":\"吴卫华\"},{\"name\":\"zhaogy\",\"realName\":\"赵国玉\"},{\"name\":\"liuxx\",\"realName\":\"刘新新\"},{\"name\":\"liuteng\",\"realName\":\"刘腾\"},{\"name\":\"wangming\",\"realName\":\"王明\"},{\"name\":\"zhaoch\",\"realName\":\"赵长虎\"},{\"name\":\"yanm\",\"realName\":\"闫铭\"},{\"name\":\"chengyh\",\"realName\":\"程雨寒\"},{\"name\":\"wanghg\",\"realName\":\"王海刚\"}]}]",
+        "presenters": "[{\"name\":\"liuxx\",\"presenterType\":\"0\",\"realName\":\"刘新新\"}]",
+        "organizer": "{\"name\":\"liuxx\",\"realName\":\"刘新新\"}",
+        "version": 2
+      },
+      "roadShowMeetingAttachmentDomainList": [
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942951835312128",
+          "meetingId": "168301977774592000",
+          "fileName": "hong_base.png",
+          "fileUrl": "http://thpublic.oss-cn-hzfinance.aliyuncs.com/fundsalescrm/prod/hong_base1662603117465.png",
+          "fileType": "image/png"
+        }
+      ],
+      "roadShowMeetingPresenterDomainList": [
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942951835320320",
+          "meetingId": "168301977774592000",
+          "domainAccount": "liuxx",
+          "presenterName": "刘新新",
+          "presenterEmail": null,
+          "presenterCellphone": null,
+          "presenterIntroduce": null,
+          "presenterType": "0"
+        }
+      ],
+      "roadShowMeetingParticipantDomainList": [
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942951835316224",
+          "meetingId": "168301977774592000",
+          "participantType": null,
+          "participantName": "刘新新",
+          "participantAccount": "liuxx"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942951835316225",
+          "meetingId": "168301977774592000",
+          "participantType": null,
+          "participantName": "杨紫舒",
+          "participantAccount": "yangzs"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942951835316226",
+          "meetingId": "168301977774592000",
+          "participantType": null,
+          "participantName": "袁琳",
+          "participantAccount": "yuanl"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942951835316227",
+          "meetingId": "168301977774592000",
+          "participantType": null,
+          "participantName": "牛宏亮",
+          "participantAccount": "niuhl"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942951835316228",
+          "meetingId": "168301977774592000",
+          "participantType": null,
+          "participantName": "王莹",
+          "participantAccount": "wangying02"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942951835316229",
+          "meetingId": "168301977774592000",
+          "participantType": null,
+          "participantName": "王卫国",
+          "participantAccount": "wangwg"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942951835316230",
+          "meetingId": "168301977774592000",
+          "participantType": null,
+          "participantName": "薛梦飞",
+          "participantAccount": "xuemf"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942951835316231",
+          "meetingId": "168301977774592000",
+          "participantType": null,
+          "participantName": "杨子骏",
+          "participantAccount": "yangzj"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942951835316232",
+          "meetingId": "168301977774592000",
+          "participantType": null,
+          "participantName": "张梦雨",
+          "participantAccount": "zhangmy"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942951835316233",
+          "meetingId": "168301977774592000",
+          "participantType": null,
+          "participantName": "吴卫华",
+          "participantAccount": "wuwh"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942951835316234",
+          "meetingId": "168301977774592000",
+          "participantType": null,
+          "participantName": "赵国玉",
+          "participantAccount": "zhaogy"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942951835316235",
+          "meetingId": "168301977774592000",
+          "participantType": null,
+          "participantName": "刘新新",
+          "participantAccount": "liuxx"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942951835316236",
+          "meetingId": "168301977774592000",
+          "participantType": null,
+          "participantName": "刘腾",
+          "participantAccount": "liuteng"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942951835316237",
+          "meetingId": "168301977774592000",
+          "participantType": null,
+          "participantName": "王明",
+          "participantAccount": "wangming"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942951835316238",
+          "meetingId": "168301977774592000",
+          "participantType": null,
+          "participantName": "赵长虎",
+          "participantAccount": "zhaoch"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942951835316239",
+          "meetingId": "168301977774592000",
+          "participantType": null,
+          "participantName": "闫铭",
+          "participantAccount": "yanm"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942951835316240",
+          "meetingId": "168301977774592000",
+          "participantType": null,
+          "participantName": "程雨寒",
+          "participantAccount": "chengyh"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942951835316241",
+          "meetingId": "168301977774592000",
+          "participantType": null,
+          "participantName": "王海刚",
+          "participantAccount": "wanghg"
+        }
+      ]
+    },
+    {
+      "roadShowMeetingDO": {
+        "gmtCreate": "2022-09-08 10:03:25",
+        "creator": "niuhl",
+        "gmtModify": "2022-09-08 10:05:54",
+        "modifior": "liuxx",
+        "id": "168299824142094336",
+        "meetingSubject": "新新测试",
+        "meetingType": "1",
+        "meetingForm": "1",
+        "room": "25java",
+        "roadShowAddress": "北京，天津",
+        "roadShowDate": null,
+        "roadShowStartTime": "2022-09-11T02:57:01.000+00:00",
+        "roadShowEndTime": "2022-09-11T03:02:02.000+00:00",
+        "publicToAll": true,
+        "digest": "固收＋路演 666",
+        "cancel": true,
+        "yesOrNo": false,
+        "customerName": "农业银行",
+        "participants": "[{\"groupName\":\"王津\",\"name\":\"wangjin\",\"participantType\":\"0\",\"realName\":\"王津\",\"roadShowParticipants\":[]},{\"groupName\":\"共创技术组\",\"name\":\"GR0001\",\"participantType\":\"1\",\"realName\":\"共创技术组\",\"roadShowParticipants\":[{\"name\":\"yangzs\",\"realName\":\"杨紫舒\"},{\"name\":\"yuanl\",\"realName\":\"袁琳\"},{\"name\":\"niuhl\",\"realName\":\"牛宏亮\"},{\"name\":\"wangying02\",\"realName\":\"王莹\"},{\"name\":\"wangwg\",\"realName\":\"王卫国\"},{\"name\":\"xuemf\",\"realName\":\"薛梦飞\"},{\"name\":\"yangzj\",\"realName\":\"杨子骏\"},{\"name\":\"zhangmy\",\"realName\":\"张梦雨\"},{\"name\":\"wuwh\",\"realName\":\"吴卫华\"},{\"name\":\"zhaogy\",\"realName\":\"赵国玉\"},{\"name\":\"liuxx\",\"realName\":\"刘新新\"},{\"name\":\"liuteng\",\"realName\":\"刘腾\"},{\"name\":\"wangming\",\"realName\":\"王明\"},{\"name\":\"zhaoch\",\"realName\":\"赵长虎\"},{\"name\":\"yanm\",\"realName\":\"闫铭\"},{\"name\":\"chengyh\",\"realName\":\"程雨寒\"},{\"name\":\"wanghg\",\"realName\":\"王海刚\"}]}]",
+        "presenters": "[{\"name\":\"guanx\",\"presenterType\":\"0\",\"realName\":\"关欣\"}]",
+        "organizer": "{\"name\":\"liuxx\",\"realName\":\"刘新新\"}",
+        "version": 3
+      },
+      "roadShowMeetingAttachmentDomainList": [
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "168300235599126528",
+          "meetingId": "168299824142094336",
+          "fileName": "hong_base.png",
+          "fileUrl": "http://thpublic.oss-cn-hzfinance.aliyuncs.com/fundsalescrm/prod/hong_base1662602591542.png",
+          "fileType": "image/png"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "168300235628486656",
+          "meetingId": "168299824142094336",
+          "fileName": "test.html",
+          "fileUrl": "http://thpublic.oss-cn-hzfinance.aliyuncs.com/fundsalescrm/prod/test1662602599932.html",
+          "fileType": "text/html"
+        }
+      ],
+      "roadShowMeetingPresenterDomainList": [
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "168300235599134720",
+          "meetingId": "168299824142094336",
+          "domainAccount": "guanx",
+          "presenterName": "关欣",
+          "presenterEmail": null,
+          "presenterCellphone": null,
+          "presenterIntroduce": null,
+          "presenterType": "0"
+        }
+      ],
+      "roadShowMeetingParticipantDomainList": [
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "168300235599130624",
+          "meetingId": "168299824142094336",
+          "participantType": null,
+          "participantName": "王津",
+          "participantAccount": "wangjin"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "168300235599130625",
+          "meetingId": "168299824142094336",
+          "participantType": null,
+          "participantName": "杨紫舒",
+          "participantAccount": "yangzs"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "168300235599130626",
+          "meetingId": "168299824142094336",
+          "participantType": null,
+          "participantName": "袁琳",
+          "participantAccount": "yuanl"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "168300235599130627",
+          "meetingId": "168299824142094336",
+          "participantType": null,
+          "participantName": "牛宏亮",
+          "participantAccount": "niuhl"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "168300235599130628",
+          "meetingId": "168299824142094336",
+          "participantType": null,
+          "participantName": "王莹",
+          "participantAccount": "wangying02"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "168300235599130629",
+          "meetingId": "168299824142094336",
+          "participantType": null,
+          "participantName": "王卫国",
+          "participantAccount": "wangwg"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "168300235599130630",
+          "meetingId": "168299824142094336",
+          "participantType": null,
+          "participantName": "薛梦飞",
+          "participantAccount": "xuemf"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "168300235599130631",
+          "meetingId": "168299824142094336",
+          "participantType": null,
+          "participantName": "杨子骏",
+          "participantAccount": "yangzj"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "168300235599130632",
+          "meetingId": "168299824142094336",
+          "participantType": null,
+          "participantName": "张梦雨",
+          "participantAccount": "zhangmy"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "168300235599130633",
+          "meetingId": "168299824142094336",
+          "participantType": null,
+          "participantName": "吴卫华",
+          "participantAccount": "wuwh"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "168300235599130634",
+          "meetingId": "168299824142094336",
+          "participantType": null,
+          "participantName": "赵国玉",
+          "participantAccount": "zhaogy"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "168300235599130635",
+          "meetingId": "168299824142094336",
+          "participantType": null,
+          "participantName": "刘新新",
+          "participantAccount": "liuxx"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "168300235599130636",
+          "meetingId": "168299824142094336",
+          "participantType": null,
+          "participantName": "刘腾",
+          "participantAccount": "liuteng"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "168300235599130637",
+          "meetingId": "168299824142094336",
+          "participantType": null,
+          "participantName": "王明",
+          "participantAccount": "wangming"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "168300235599130638",
+          "meetingId": "168299824142094336",
+          "participantType": null,
+          "participantName": "赵长虎",
+          "participantAccount": "zhaoch"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "168300235599130639",
+          "meetingId": "168299824142094336",
+          "participantType": null,
+          "participantName": "闫铭",
+          "participantAccount": "yanm"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "168300235599130640",
+          "meetingId": "168299824142094336",
+          "participantType": null,
+          "participantName": "程雨寒",
+          "participantAccount": "chengyh"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "168300235599130641",
+          "meetingId": "168299824142094336",
+          "participantType": null,
+          "participantName": "王海刚",
+          "participantAccount": "wanghg"
+        }
+      ]
+    },
+    {
+      "roadShowMeetingDO": {
+        "gmtCreate": "2022-09-08 09:49:47",
+        "creator": "yangzs",
+        "gmtModify": "2022-09-15 17:08:13",
+        "modifior": "yangzs",
+        "id": "168296394027700224",
+        "meetingSubject": "测试0910路演",
+        "meetingType": "1",
+        "meetingForm": "1",
+        "room": "25层NodeJS",
+        "roadShowAddress": "北京",
+        "roadShowDate": null,
+        "roadShowStartTime": "2022-09-10T05:00:00.000+00:00",
+        "roadShowEndTime": "2022-09-10T06:30:00.000+00:00",
+        "publicToAll": false,
+        "digest": "测试0910路演",
+        "cancel": false,
+        "yesOrNo": false,
+        "customerName": "无",
+        "participants": "[{\"groupName\":\"共创技术组\",\"name\":\"GR0001\",\"participantType\":\"1\",\"realName\":\"共创技术组\",\"roadShowParticipants\":[{\"name\":\"yangzs\",\"realName\":\"杨紫舒\"},{\"name\":\"yuanl\",\"realName\":\"袁琳\"},{\"name\":\"niuhl\",\"realName\":\"牛宏亮\"},{\"name\":\"wangying02\",\"realName\":\"王莹\"},{\"name\":\"wangwg\",\"realName\":\"王卫国\"},{\"name\":\"xuemf\",\"realName\":\"薛梦飞\"},{\"name\":\"yangzj\",\"realName\":\"杨子骏\"},{\"name\":\"zhangmy\",\"realName\":\"张梦雨\"},{\"name\":\"wuwh\",\"realName\":\"吴卫华\"},{\"name\":\"zhaogy\",\"realName\":\"赵国玉\"},{\"name\":\"liuxx\",\"realName\":\"刘新新\"},{\"name\":\"liuteng\",\"realName\":\"刘腾\"},{\"name\":\"wangming\",\"realName\":\"王明\"},{\"name\":\"zhaoch\",\"realName\":\"赵长虎\"},{\"name\":\"yanm\",\"realName\":\"闫铭\"},{\"name\":\"chengyh\",\"realName\":\"程雨寒\"},{\"name\":\"wanghg\",\"realName\":\"王海刚\"}]}]",
+        "presenters": "[{\"name\":\"wanghg\",\"presenterType\":\"0\",\"realName\":\"王海刚\"}]",
+        "organizer": "{\"name\":\"yangzs\",\"realName\":\"杨紫舒\"}",
+        "version": 1
+      },
+      "roadShowMeetingAttachmentDomainList": null,
+      "roadShowMeetingPresenterDomainList": [
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170943446704472064",
+          "meetingId": "168296394027700224",
+          "domainAccount": "wanghg",
+          "presenterName": "王海刚",
+          "presenterEmail": null,
+          "presenterCellphone": null,
+          "presenterIntroduce": null,
+          "presenterType": "0"
+        }
+      ],
+      "roadShowMeetingParticipantDomainList": [
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170943446704467968",
+          "meetingId": "168296394027700224",
+          "participantType": null,
+          "participantName": "杨紫舒",
+          "participantAccount": "yangzs"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170943446704467969",
+          "meetingId": "168296394027700224",
+          "participantType": null,
+          "participantName": "袁琳",
+          "participantAccount": "yuanl"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170943446704467970",
+          "meetingId": "168296394027700224",
+          "participantType": null,
+          "participantName": "牛宏亮",
+          "participantAccount": "niuhl"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170943446704467971",
+          "meetingId": "168296394027700224",
+          "participantType": null,
+          "participantName": "王莹",
+          "participantAccount": "wangying02"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170943446704467972",
+          "meetingId": "168296394027700224",
+          "participantType": null,
+          "participantName": "王卫国",
+          "participantAccount": "wangwg"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170943446704467973",
+          "meetingId": "168296394027700224",
+          "participantType": null,
+          "participantName": "薛梦飞",
+          "participantAccount": "xuemf"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170943446704467974",
+          "meetingId": "168296394027700224",
+          "participantType": null,
+          "participantName": "杨子骏",
+          "participantAccount": "yangzj"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170943446704467975",
+          "meetingId": "168296394027700224",
+          "participantType": null,
+          "participantName": "张梦雨",
+          "participantAccount": "zhangmy"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170943446704467976",
+          "meetingId": "168296394027700224",
+          "participantType": null,
+          "participantName": "吴卫华",
+          "participantAccount": "wuwh"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170943446704467977",
+          "meetingId": "168296394027700224",
+          "participantType": null,
+          "participantName": "赵国玉",
+          "participantAccount": "zhaogy"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170943446704467978",
+          "meetingId": "168296394027700224",
+          "participantType": null,
+          "participantName": "刘新新",
+          "participantAccount": "liuxx"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170943446704467979",
+          "meetingId": "168296394027700224",
+          "participantType": null,
+          "participantName": "刘腾",
+          "participantAccount": "liuteng"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170943446704467980",
+          "meetingId": "168296394027700224",
+          "participantType": null,
+          "participantName": "王明",
+          "participantAccount": "wangming"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170943446704467981",
+          "meetingId": "168296394027700224",
+          "participantType": null,
+          "participantName": "赵长虎",
+          "participantAccount": "zhaoch"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170943446704467982",
+          "meetingId": "168296394027700224",
+          "participantType": null,
+          "participantName": "闫铭",
+          "participantAccount": "yanm"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170943446704467983",
+          "meetingId": "168296394027700224",
+          "participantType": null,
+          "participantName": "程雨寒",
+          "participantAccount": "chengyh"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170943446704467984",
+          "meetingId": "168296394027700224",
+          "participantType": null,
+          "participantName": "王海刚",
+          "participantAccount": "wanghg"
+        }
+      ]
+    },
+    {
+      "roadShowMeetingDO": {
+        "gmtCreate": "2022-09-08 09:46:59",
+        "creator": "yangzs",
+        "gmtModify": "2022-09-15 17:07:54",
+        "modifior": "yangzs",
+        "id": "168295688294109184",
+        "meetingSubject": "测试路演主题",
+        "meetingType": "1",
+        "meetingForm": "1",
+        "room": "25层Java",
+        "roadShowAddress": "北京",
+        "roadShowDate": null,
+        "roadShowStartTime": "2022-09-09T02:00:06.000+00:00",
+        "roadShowEndTime": "2022-09-09T03:30:17.000+00:00",
+        "publicToAll": false,
+        "digest": "测试下路演~",
+        "cancel": false,
+        "yesOrNo": false,
+        "customerName": "建设银行",
+        "participants": "[{\"groupName\":\"共创技术组\",\"name\":\"GR0001\",\"participantType\":\"1\",\"realName\":\"共创技术组\",\"roadShowParticipants\":[{\"name\":\"yangzs\",\"realName\":\"杨紫舒\"},{\"name\":\"yuanl\",\"realName\":\"袁琳\"},{\"name\":\"niuhl\",\"realName\":\"牛宏亮\"},{\"name\":\"wangying02\",\"realName\":\"王莹\"},{\"name\":\"wangwg\",\"realName\":\"王卫国\"},{\"name\":\"xuemf\",\"realName\":\"薛梦飞\"},{\"name\":\"yangzj\",\"realName\":\"杨子骏\"},{\"name\":\"zhangmy\",\"realName\":\"张梦雨\"},{\"name\":\"wuwh\",\"realName\":\"吴卫华\"},{\"name\":\"zhaogy\",\"realName\":\"赵国玉\"},{\"name\":\"liuxx\",\"realName\":\"刘新新\"},{\"name\":\"liuteng\",\"realName\":\"刘腾\"},{\"name\":\"wangming\",\"realName\":\"王明\"},{\"name\":\"zhaoch\",\"realName\":\"赵长虎\"},{\"name\":\"yanm\",\"realName\":\"闫铭\"},{\"name\":\"chengyh\",\"realName\":\"程雨寒\"},{\"name\":\"wanghg\",\"realName\":\"王海刚\"}]}]",
+        "presenters": "[{\"name\":\"niuhl\",\"presenterType\":\"0\",\"realName\":\"牛宏亮\"}]",
+        "organizer": "{\"name\":\"yangzs\",\"realName\":\"杨紫舒\"}",
+        "version": 1
+      },
+      "roadShowMeetingAttachmentDomainList": [
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170943364747763712",
+          "meetingId": "168295688294109184",
+          "fileName": "pdf_icon.png",
+          "fileUrl": "http://thpublic.oss-cn-hzfinance.aliyuncs.com/fundsalescrm/prod/pdf_icon1662601572579.png",
+          "fileType": "image/png"
+        }
+      ],
+      "roadShowMeetingPresenterDomainList": [
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170943364747771904",
+          "meetingId": "168295688294109184",
+          "domainAccount": "niuhl",
+          "presenterName": "牛宏亮",
+          "presenterEmail": null,
+          "presenterCellphone": null,
+          "presenterIntroduce": null,
+          "presenterType": "0"
+        }
+      ],
+      "roadShowMeetingParticipantDomainList": [
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170943364747767808",
+          "meetingId": "168295688294109184",
+          "participantType": null,
+          "participantName": "杨紫舒",
+          "participantAccount": "yangzs"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170943364747767809",
+          "meetingId": "168295688294109184",
+          "participantType": null,
+          "participantName": "袁琳",
+          "participantAccount": "yuanl"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170943364747767810",
+          "meetingId": "168295688294109184",
+          "participantType": null,
+          "participantName": "牛宏亮",
+          "participantAccount": "niuhl"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170943364747767811",
+          "meetingId": "168295688294109184",
+          "participantType": null,
+          "participantName": "王莹",
+          "participantAccount": "wangying02"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170943364747767812",
+          "meetingId": "168295688294109184",
+          "participantType": null,
+          "participantName": "王卫国",
+          "participantAccount": "wangwg"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170943364747767813",
+          "meetingId": "168295688294109184",
+          "participantType": null,
+          "participantName": "薛梦飞",
+          "participantAccount": "xuemf"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170943364747767814",
+          "meetingId": "168295688294109184",
+          "participantType": null,
+          "participantName": "杨子骏",
+          "participantAccount": "yangzj"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170943364747767815",
+          "meetingId": "168295688294109184",
+          "participantType": null,
+          "participantName": "张梦雨",
+          "participantAccount": "zhangmy"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170943364747767816",
+          "meetingId": "168295688294109184",
+          "participantType": null,
+          "participantName": "吴卫华",
+          "participantAccount": "wuwh"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170943364747767817",
+          "meetingId": "168295688294109184",
+          "participantType": null,
+          "participantName": "赵国玉",
+          "participantAccount": "zhaogy"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170943364747767818",
+          "meetingId": "168295688294109184",
+          "participantType": null,
+          "participantName": "刘新新",
+          "participantAccount": "liuxx"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170943364747767819",
+          "meetingId": "168295688294109184",
+          "participantType": null,
+          "participantName": "刘腾",
+          "participantAccount": "liuteng"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170943364747767820",
+          "meetingId": "168295688294109184",
+          "participantType": null,
+          "participantName": "王明",
+          "participantAccount": "wangming"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170943364747767821",
+          "meetingId": "168295688294109184",
+          "participantType": null,
+          "participantName": "赵长虎",
+          "participantAccount": "zhaoch"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170943364747767822",
+          "meetingId": "168295688294109184",
+          "participantType": null,
+          "participantName": "闫铭",
+          "participantAccount": "yanm"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170943364747767823",
+          "meetingId": "168295688294109184",
+          "participantType": null,
+          "participantName": "程雨寒",
+          "participantAccount": "chengyh"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170943364747767824",
+          "meetingId": "168295688294109184",
+          "participantType": null,
+          "participantName": "王海刚",
+          "participantAccount": "wanghg"
+        }
+      ]
+    },
+    {
+      "roadShowMeetingDO": {
+        "gmtCreate": "2022-09-08 10:20:10",
+        "creator": "niuhl",
+        "gmtModify": "2022-09-15 17:04:15",
+        "modifior": "liuxx",
+        "id": "168304039761547264",
+        "meetingSubject": "测试路演02",
+        "meetingType": "1",
+        "meetingForm": "2",
+        "room": "java会议室",
+        "roadShowAddress": "北京",
+        "roadShowDate": null,
+        "roadShowStartTime": "2022-09-08T02:21:25.000+00:00",
+        "roadShowEndTime": "2022-09-08T03:00:10.000+00:00",
+        "publicToAll": false,
+        "digest": "测试路演创建01",
+        "cancel": false,
+        "yesOrNo": false,
+        "customerName": "农业银行",
+        "participants": "[{\"groupName\":\"刘新新\",\"name\":\"liuxx\",\"participantType\":\"0\",\"realName\":\"刘新新\",\"roadShowParticipants\":[]},{\"groupName\":\"共创技术组\",\"name\":\"GR0001\",\"participantType\":\"1\",\"realName\":\"共创技术组\",\"roadShowParticipants\":[{\"name\":\"yangzs\",\"realName\":\"杨紫舒\"},{\"name\":\"yuanl\",\"realName\":\"袁琳\"},{\"name\":\"niuhl\",\"realName\":\"牛宏亮\"},{\"name\":\"wangying02\",\"realName\":\"王莹\"},{\"name\":\"wangwg\",\"realName\":\"王卫国\"},{\"name\":\"xuemf\",\"realName\":\"薛梦飞\"},{\"name\":\"yangzj\",\"realName\":\"杨子骏\"},{\"name\":\"zhangmy\",\"realName\":\"张梦雨\"},{\"name\":\"wuwh\",\"realName\":\"吴卫华\"},{\"name\":\"zhaogy\",\"realName\":\"赵国玉\"},{\"name\":\"liuxx\",\"realName\":\"刘新新\"},{\"name\":\"liuteng\",\"realName\":\"刘腾\"},{\"name\":\"wangming\",\"realName\":\"王明\"},{\"name\":\"zhaoch\",\"realName\":\"赵长虎\"},{\"name\":\"yanm\",\"realName\":\"闫铭\"},{\"name\":\"chengyh\",\"realName\":\"程雨寒\"},{\"name\":\"wanghg\",\"realName\":\"王海刚\"}]}]",
+        "presenters": "[{\"name\":\"guanx\",\"presenterType\":\"0\",\"realName\":\"关欣\"}]",
+        "organizer": "{\"name\":\"liuxx\",\"realName\":\"刘新新\"}",
+        "version": 6
+      },
+      "roadShowMeetingAttachmentDomainList": [
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942448149733376",
+          "meetingId": "168304039761547264",
+          "fileName": "hong_base.png",
+          "fileUrl": "http://thpublic.oss-cn-hzfinance.aliyuncs.com/fundsalescrm/prod/hong_base1662603598133.png",
+          "fileType": "image/png"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942448187482112",
+          "meetingId": "168304039761547264",
+          "fileName": "test.html",
+          "fileUrl": "http://thpublic.oss-cn-hzfinance.aliyuncs.com/fundsalescrm/prod/test1662603606549.html",
+          "fileType": "text/html"
+        }
+      ],
+      "roadShowMeetingPresenterDomainList": [
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942448149741568",
+          "meetingId": "168304039761547264",
+          "domainAccount": "guanx",
+          "presenterName": "关欣",
+          "presenterEmail": null,
+          "presenterCellphone": null,
+          "presenterIntroduce": null,
+          "presenterType": "0"
+        }
+      ],
+      "roadShowMeetingParticipantDomainList": [
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942448149737472",
+          "meetingId": "168304039761547264",
+          "participantType": null,
+          "participantName": "刘新新",
+          "participantAccount": "liuxx"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942448149737473",
+          "meetingId": "168304039761547264",
+          "participantType": null,
+          "participantName": "杨紫舒",
+          "participantAccount": "yangzs"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942448149737474",
+          "meetingId": "168304039761547264",
+          "participantType": null,
+          "participantName": "袁琳",
+          "participantAccount": "yuanl"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942448149737475",
+          "meetingId": "168304039761547264",
+          "participantType": null,
+          "participantName": "牛宏亮",
+          "participantAccount": "niuhl"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942448149737476",
+          "meetingId": "168304039761547264",
+          "participantType": null,
+          "participantName": "王莹",
+          "participantAccount": "wangying02"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942448149737477",
+          "meetingId": "168304039761547264",
+          "participantType": null,
+          "participantName": "王卫国",
+          "participantAccount": "wangwg"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942448149737478",
+          "meetingId": "168304039761547264",
+          "participantType": null,
+          "participantName": "薛梦飞",
+          "participantAccount": "xuemf"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942448149737479",
+          "meetingId": "168304039761547264",
+          "participantType": null,
+          "participantName": "杨子骏",
+          "participantAccount": "yangzj"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942448149737480",
+          "meetingId": "168304039761547264",
+          "participantType": null,
+          "participantName": "张梦雨",
+          "participantAccount": "zhangmy"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942448149737481",
+          "meetingId": "168304039761547264",
+          "participantType": null,
+          "participantName": "吴卫华",
+          "participantAccount": "wuwh"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942448149737482",
+          "meetingId": "168304039761547264",
+          "participantType": null,
+          "participantName": "赵国玉",
+          "participantAccount": "zhaogy"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942448149737483",
+          "meetingId": "168304039761547264",
+          "participantType": null,
+          "participantName": "刘新新",
+          "participantAccount": "liuxx"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942448149737484",
+          "meetingId": "168304039761547264",
+          "participantType": null,
+          "participantName": "刘腾",
+          "participantAccount": "liuteng"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942448149737485",
+          "meetingId": "168304039761547264",
+          "participantType": null,
+          "participantName": "王明",
+          "participantAccount": "wangming"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942448149737486",
+          "meetingId": "168304039761547264",
+          "participantType": null,
+          "participantName": "赵长虎",
+          "participantAccount": "zhaoch"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942448149737487",
+          "meetingId": "168304039761547264",
+          "participantType": null,
+          "participantName": "闫铭",
+          "participantAccount": "yanm"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942448149737488",
+          "meetingId": "168304039761547264",
+          "participantType": null,
+          "participantName": "程雨寒",
+          "participantAccount": "chengyh"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942448149737489",
+          "meetingId": "168304039761547264",
+          "participantType": null,
+          "participantName": "王海刚",
+          "participantAccount": "wanghg"
+        }
+      ]
+    },
+    {
+      "roadShowMeetingDO": {
+        "gmtCreate": "2022-09-08 09:35:51",
+        "creator": "niuhl",
+        "gmtModify": "2022-09-15 17:06:04",
+        "modifior": "liuxx",
+        "id": "168292886612283392",
+        "meetingSubject": "新新测试路演标题",
+        "meetingType": "1",
+        "meetingForm": "1",
+        "room": "25层java",
+        "roadShowAddress": "北京",
+        "roadShowDate": null,
+        "roadShowStartTime": "2022-09-08T01:30:32.000+00:00",
+        "roadShowEndTime": "2022-09-08T02:00:00.000+00:00",
+        "publicToAll": false,
+        "digest": "测试路演",
+        "cancel": false,
+        "yesOrNo": false,
+        "customerName": "中国银行",
+        "participants": "[{\"groupName\":\"马琼\",\"name\":\"maq\",\"participantType\":\"0\",\"realName\":\"马琼\",\"roadShowParticipants\":[]},{\"groupName\":\"王津\",\"name\":\"wangjin\",\"participantType\":\"0\",\"realName\":\"王津\",\"roadShowParticipants\":[]},{\"groupName\":\"共创技术组\",\"name\":\"GR0001\",\"participantType\":\"1\",\"realName\":\"共创技术组\",\"roadShowParticipants\":[{\"name\":\"yangzs\",\"realName\":\"杨紫舒\"},{\"name\":\"yuanl\",\"realName\":\"袁琳\"},{\"name\":\"niuhl\",\"realName\":\"牛宏亮\"},{\"name\":\"wangying02\",\"realName\":\"王莹\"},{\"name\":\"wangwg\",\"realName\":\"王卫国\"},{\"name\":\"xuemf\",\"realName\":\"薛梦飞\"},{\"name\":\"yangzj\",\"realName\":\"杨子骏\"},{\"name\":\"zhangmy\",\"realName\":\"张梦雨\"},{\"name\":\"wuwh\",\"realName\":\"吴卫华\"},{\"name\":\"zhaogy\",\"realName\":\"赵国玉\"},{\"name\":\"liuxx\",\"realName\":\"刘新新\"},{\"name\":\"liuteng\",\"realName\":\"刘腾\"},{\"name\":\"wangming\",\"realName\":\"王明\"},{\"name\":\"zhaoch\",\"realName\":\"赵长虎\"},{\"name\":\"yanm\",\"realName\":\"闫铭\"},{\"name\":\"chengyh\",\"realName\":\"程雨寒\"},{\"name\":\"wanghg\",\"realName\":\"王海刚\"}]}]",
+        "presenters": "[{\"name\":\"guanx\",\"presenterType\":\"0\",\"realName\":\"关欣\"}]",
+        "organizer": "{\"name\":\"liuxx\",\"realName\":\"刘新新\"}",
+        "version": 3
+      },
+      "roadShowMeetingAttachmentDomainList": [
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942904397733888",
+          "meetingId": "168292886612283392",
+          "fileName": "hong_base.png",
+          "fileUrl": "http://thpublic.oss-cn-hzfinance.aliyuncs.com/fundsalescrm/prod/hong_base1662600931735.png",
+          "fileType": "image/png"
+        }
+      ],
+      "roadShowMeetingPresenterDomainList": [
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942904397742080",
+          "meetingId": "168292886612283392",
+          "domainAccount": "guanx",
+          "presenterName": "关欣",
+          "presenterEmail": null,
+          "presenterCellphone": null,
+          "presenterIntroduce": null,
+          "presenterType": "0"
+        }
+      ],
+      "roadShowMeetingParticipantDomainList": [
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942904393543680",
+          "meetingId": "168292886612283392",
+          "participantType": null,
+          "participantName": "马琼",
+          "participantAccount": "maq"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942904393543681",
+          "meetingId": "168292886612283392",
+          "participantType": null,
+          "participantName": "王津",
+          "participantAccount": "wangjin"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942904393543682",
+          "meetingId": "168292886612283392",
+          "participantType": null,
+          "participantName": "杨紫舒",
+          "participantAccount": "yangzs"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942904393543683",
+          "meetingId": "168292886612283392",
+          "participantType": null,
+          "participantName": "袁琳",
+          "participantAccount": "yuanl"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942904393543684",
+          "meetingId": "168292886612283392",
+          "participantType": null,
+          "participantName": "牛宏亮",
+          "participantAccount": "niuhl"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942904393543685",
+          "meetingId": "168292886612283392",
+          "participantType": null,
+          "participantName": "王莹",
+          "participantAccount": "wangying02"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942904393543686",
+          "meetingId": "168292886612283392",
+          "participantType": null,
+          "participantName": "王卫国",
+          "participantAccount": "wangwg"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942904393543687",
+          "meetingId": "168292886612283392",
+          "participantType": null,
+          "participantName": "薛梦飞",
+          "participantAccount": "xuemf"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942904393543688",
+          "meetingId": "168292886612283392",
+          "participantType": null,
+          "participantName": "杨子骏",
+          "participantAccount": "yangzj"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942904393543689",
+          "meetingId": "168292886612283392",
+          "participantType": null,
+          "participantName": "张梦雨",
+          "participantAccount": "zhangmy"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942904393543690",
+          "meetingId": "168292886612283392",
+          "participantType": null,
+          "participantName": "吴卫华",
+          "participantAccount": "wuwh"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942904393543691",
+          "meetingId": "168292886612283392",
+          "participantType": null,
+          "participantName": "赵国玉",
+          "participantAccount": "zhaogy"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942904393543692",
+          "meetingId": "168292886612283392",
+          "participantType": null,
+          "participantName": "刘新新",
+          "participantAccount": "liuxx"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942904393543693",
+          "meetingId": "168292886612283392",
+          "participantType": null,
+          "participantName": "刘腾",
+          "participantAccount": "liuteng"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942904393543694",
+          "meetingId": "168292886612283392",
+          "participantType": null,
+          "participantName": "王明",
+          "participantAccount": "wangming"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942904393543695",
+          "meetingId": "168292886612283392",
+          "participantType": null,
+          "participantName": "赵长虎",
+          "participantAccount": "zhaoch"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942904393543696",
+          "meetingId": "168292886612283392",
+          "participantType": null,
+          "participantName": "闫铭",
+          "participantAccount": "yanm"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942904393543697",
+          "meetingId": "168292886612283392",
+          "participantType": null,
+          "participantName": "程雨寒",
+          "participantAccount": "chengyh"
+        },
+        {
+          "gmtCreate": null,
+          "creator": null,
+          "gmtModify": null,
+          "modifior": null,
+          "id": "170942904393543698",
+          "meetingId": "168292886612283392",
+          "participantType": null,
+          "participantName": "王海刚",
+          "participantAccount": "wanghg"
+        }
+      ]
+    }
+  ],
+  "total": 9,
+  "size": 1000,
+  "current": 1,
+  "orders": [],
+  "optimizeCountSql": true,
+  "hitCount": false,
+  "countId": null,
+  "maxLimit": null,
+  "searchCount": true,
+  "pages": 1
+}

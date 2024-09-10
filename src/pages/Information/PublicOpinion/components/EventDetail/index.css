@@ -1,0 +1,26 @@
+.content-detail {
+  padding-right: 5px;
+  cursor: pointer;
+}
+.header-date {
+  margin: 0 8px;
+  font-size: 14px;
+}
+.header-state {
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+}
+.list-wrap {
+  min-height: 718px;
+}
+.list-content {
+  display: flex;
+  margin: 4px 0 8px;
+}
+.blue {
+  color: #008dff;
+}
+.tag {
+  margin: 0 2px;
+}

@@ -1,0 +1,129 @@
+@import (reference) '~antd/es/style/themes/index';
+// 如需自定义颜色，可以参考ant-design【替换地址】生成的颜色替换从1-10 的色卡，其中 @primary-color-6 为主题色
+// 替换地址：https://ant.design/docs/spec/colors-cn#%E8%89%B2%E6%9D%BF%E7%94%9F%E6%88%90%E5%B7%A5%E5%85%B7
+// 备注：如果主题色是以下的一种，可以直接 @primary-color-1: @red-1 以此类推
+// 【red、volcano、orange、gold、yellow、lime、green、cyan、blue、geekblue、purple、magenta、grey】
+
+// 颜色在颜色数组的index
+@color-index-selfblue: 1; // 自定义蓝色系，目前portal在用
+@color-index-gold: 2;
+@color-index-cyan: 3;
+@color-index-purple: 4;
+@color-index-red: 5;
+@color-index-volcano: 6;
+@color-index-orange: 7;
+@color-index-green: 8;
+@color-index-grey: 9;
+@color-index-clyblue: 10;
+
+// =================  记录当前主题颜色index， 以后切less相关换主题就能通过换这个index一个值就可以了  =====================
+@main-theme-index: @color-index-selfblue;
+
+// 灰色系 自定义，ant没有，grey
+@grey-1: #f5f5f5;
+@grey-2: #f0f0f0;
+@grey-3: #d9d9d9;
+@grey-4: #bfbfbf;
+@grey-5: #8c8c8c;
+@grey-6: #595959;
+@grey-7: #434343;
+@grey-8: #262626;
+@grey-9: #1f1f1f;
+@grey-10: #141414;
+
+// 自定义蓝色系，也是目前portal使用的色系
+@selfblue-1: #c0d5fd; // 主题色渐变色1
+@selfblue-2: #94b8ff; // 主题色渐变色2
+@selfblue-3: #84adfd; // 主题色渐变色3
+@selfblue-4: #5e93fd; // 主题色渐变色4
+@selfblue-5: #387bfb; // 主题色渐变色5
+@selfblue-6: #3277fc; // 主题色渐变色6--主色
+@selfblue-7: #3176fc; // 主题色渐变色7
+@selfblue-8: #0026ff; // 主题色渐变色8
+@selfblue-9: #3d3fd1; // 主题色渐变色9
+@selfblue-10: #041763; //主题色渐变色10
+
+// 自定义克莱因蓝
+@clyblue-1: #cfd9e6; // 主题色渐变色1
+@clyblue-2: #8babd9; // 主题色渐变色2
+@clyblue-3: #628bcc; // 主题色渐变色3
+@clyblue-4: #3d6bbf; // 主题色渐变色4
+@clyblue-5: #1d4cb3; // 主题色渐变色5
+@clyblue-6: #002fa7; // 主题色渐变色6--主色
+@clyblue-7: #002080; // 主题色渐变色7
+@clyblue-8: #001359; // 主题色渐变色8
+@clyblue-9: #000933; // 主题色渐变色9
+@clyblue-10: #00020d; //主题色渐变色10
+
+// 颜色数组 方便通过index切主题
+//         自定义blue    gold    cyan    purple    red    volcano    orange    green   grey
+@color-1s: @selfblue-1 @gold-1 @cyan-1 @purple-1 @red-1 @volcano-1 @orange-1 @green-1 @grey-1
+  @clyblue-1;
+@color-2s: @selfblue-2 @gold-2 @cyan-2 @purple-2 @red-2 @volcano-2 @orange-2 @green-2 @grey-2
+  @clyblue-2;
+@color-3s: @selfblue-3 @gold-3 @cyan-3 @purple-3 @red-3 @volcano-3 @orange-3 @green-3 @grey-3
+  @clyblue-3;
+@color-4s: @selfblue-4 @gold-4 @cyan-4 @purple-4 @red-4 @volcano-4 @orange-4 @green-4 @grey-4
+  @clyblue-4;
+@color-5s: @selfblue-5 @gold-5 @cyan-5 @purple-5 @red-5 @volcano-5 @orange-5 @green-5 @grey-5
+  @clyblue-5;
+@color-6s: @selfblue-6 @gold-6 @cyan-6 @purple-6 @red-6 @volcano-6 @orange-6 @green-6 @grey-6
+  @clyblue-6;
+@color-7s: @selfblue-7 @gold-7 @cyan-7 @purple-7 @red-7 @volcano-7 @orange-7 @green-7 @grey-7
+  @clyblue-7;
+@color-8s: @selfblue-8 @gold-8 @cyan-8 @purple-8 @red-8 @volcano-8 @orange-8 @green-8 @grey-8
+  @clyblue-8;
+@color-9s: @selfblue-9 @gold-9 @cyan-9 @purple-9 @red-9 @volcano-9 @orange-9 @green-9 @grey-9
+  @clyblue-9;
+@color-10s: @selfblue-10 @gold-10 @cyan-10 @purple-10 @red-10 @volcano-10 @orange-10 @green-10
+  @grey-10 @clyblue-10;
+
+// themes 计算后的主题色
+@primary-color-1: extract(@color-1s, @main-theme-index); // 主题色渐变色1
+@primary-color-2: extract(@color-2s, @main-theme-index); // 主题色渐变色2
+@primary-color-3: extract(@color-3s, @main-theme-index); // 主题色渐变色3
+@primary-color-4: extract(@color-4s, @main-theme-index); // 主题色渐变色4
+@primary-color-5: extract(@color-5s, @main-theme-index); // 主题色渐变色5
+@primary-color-6: extract(@color-6s, @main-theme-index); // 主题色渐变色6--主色
+@primary-color-7: extract(@color-7s, @main-theme-index); // 主题色渐变色7
+@primary-color-8: extract(@color-8s, @main-theme-index); // 主题色渐变色8
+@primary-color-9: extract(@color-9s, @main-theme-index); // 主题色渐变色9
+@primary-color-10: extract(@color-10s, @main-theme-index); //主题色渐变色10
+
+@primary-color: @primary-color-6; // 主题色
+
+@primary-bg-color: #fff; // 主题背景色
+@primary-bg-color-1: @primary-color-2; // 主题背景色
+@primary-bg-color-2: @primary-color-3; // 主题背景色
+@primary-bg-color-3: @primary-color-1; // 主题背景色
+@primary-bg-color-4: #e9e9e9; // 主题背景色
+@primary-bg-color-5: #edf0f7; // 主题背景色
+
+// 覆盖公共的
+@layout-header-background: @primary-color-6; // 页面Header背景色
+@menu-item-active-bg: @primary-color-3; // 页面Header 悬浮颜色
+
+// 自己定义
+@layout-header-height: 48px; // 页面Header行高
+@menu-item-item-height: 48px; // 页面路由导航行高
+@menu-item-left-bg: @primary-color-4; // 导航卡片左面背景色
+@menu-item-right-bg: @primary-color-3; // 导航卡片右面背景色
+@primary-background-color: @primary-bg-color-5; // 页面背景色
+@primary-tab-list-background: @primary-color-1; // tab头部背景默认色
+@primary-tab-list-background-active: @primary-bg-color; // tab头部选中背景色
+@primary-tab-list-active-text: @primary-color-5; // tab头部选中文字颜色
+@primary-card-header-line: @primary-bg-color-4; // procard头部分割线颜色
+@primary-table-hover: @primary-bg-color-3; // table鼠标悬浮颜色
+@primary-radio-btn-checked: @primary-color-3; // radio.button选中背景色
+@primary-radio-btn-border: @primary-color-1; // radio.button选中边框色
+@primary-tab-header-bg: @primary-bg-color-1; // 页签容器背景色
+@card-title-before-icon: @primary-color-7; // procardplus头部icon颜色
+
+// 指数地图
+@index-map-cube-color: #3e3e3e;
+@index-map-cube-bg-color: @primary-color-9;
+@index-map-cube-corner-flag-color: @primary-bg-color;
+@index-map-cube-corner-flag-bg-color: @primary-color-8;
+
+// 详情页头部指标卡
+@static-card-bg-color: '#E5EDFE';

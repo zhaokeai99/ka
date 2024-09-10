@@ -1,0 +1,145 @@
+@import '~@/themes/index.less';
+
+.vog-card-container {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  width: 100%;
+
+  .vog-card-item-container {
+    box-sizing: border-box;
+    background-color: #fff;
+    border-top: 4px solid #4568f5;
+    .vog-card-item {
+      width: 260px;
+      height: 290px;
+      border-color: #ececec;
+      border-style: solid;
+      border-width: 0 1px 1px 1px;
+      border-radius: 0 0 2px 2px;
+    }
+
+    .vog-card-item-selectable {
+      width: 260px;
+      height: 290px;
+      border-color: #ececec;
+      border-style: solid;
+      border-width: 0 1px 1px 1px;
+      border-radius: 0 0 2px 2px;
+      &:hover {
+        border-color: #4568f5;
+        cursor: pointer;
+        transition: all 0.4s;
+      }
+    }
+
+    .vog-card-item-checked {
+      background-color: #f0f5ff;
+      border-color: #4568f5;
+      border-style: solid;
+      border-width: 0 1px 1px 1px;
+      border-radius: 0 0 2px 2px;
+    }
+  }
+}
+
+.vog-card-container-wrap {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 24%);
+  column-gap: 1%;
+  row-gap: 16px;
+
+  .vog-card-item-container {
+    border-top: 4px solid #4568f5;
+    .vog-card-item {
+      width: 100%;
+      height: 290px;
+      border-color: #ececec;
+      border-style: solid;
+      border-width: 0 1px 1px 1px;
+      border-radius: 0 0 2px 2px;
+    }
+
+    .vog-card-item-selectable {
+      width: 100%;
+      height: 290px;
+      border-color: #ececec;
+      border-style: solid;
+      border-width: 0 1px 1px 1px;
+      border-radius: 0 0 2px 2px;
+      &:hover {
+        border-color: #4568f5;
+        cursor: pointer;
+        transition: all 0.4s;
+      }
+    }
+
+    .vog-card-item-checked {
+      background-color: #f0f5ff;
+      border-color: #4568f5;
+      border-style: solid;
+      border-width: 0 1px 1px 1px;
+      border-radius: 0 0 2px 2px;
+    }
+  }
+}
+
+.vog-card-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 0 0 20px;
+
+  > div {
+    margin-left: 12px;
+    .name {
+      margin-bottom: 4px;
+      color: #4568f5;
+      font-weight: 500;
+      font-size: 16px;
+      font-family: PingFangSC-Medium;
+    }
+    .num {
+      color: rgba(0, 0, 0, 0.45);
+      font-weight: 400;
+      font-size: 12px;
+      font-family: PingFangSC-Regular;
+    }
+  }
+}
+
+.vog-card-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 85%;
+  height: 73%;
+  margin: 0 auto;
+
+  .des-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: rgba(0, 0, 0, 0.65);
+    font-weight: 400;
+    font-size: 14px;
+    font-family: PingFangSC-Regular;
+    > label {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    > label::before {
+      width: 4px;
+      height: 4px;
+      margin-right: 8px;
+      background: #4568f5;
+      border-radius: 2px;
+      content: '';
+    }
+    > span {
+      font-family: HelveticaNeue;
+    }
+  }
+}

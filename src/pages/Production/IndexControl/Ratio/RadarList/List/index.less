@@ -1,0 +1,47 @@
+@import '~@/themes/index.less';
+
+.list-box {
+  display: inline-block;
+  width: 100%;
+
+  .title {
+    height: 20px;
+    margin: 0 auto 12px;
+    text-align: center;
+
+    .type {
+      height: 20px;
+      color: @primary-color;
+    }
+  }
+
+  .list-container {
+    width: 100%;
+    height: 240px;
+    overflow-y: auto;
+
+    .item {
+      width: 95%;
+      height: 20px;
+      padding-left: 12px;
+      overflow: hidden;
+      font-size: 12px;
+      line-height: 20px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+
+      &-th {
+        width: 95%;
+        height: 20px;
+        padding-left: 12px;
+        overflow: hidden;
+        color: #3277fc;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 20px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+}

@@ -1,0 +1,90 @@
+@import '~@/themes/index.less';
+
+.card-item {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.02);
+  border-top: 3px solid #adc6ff;
+  border-radius: 2px;
+
+  .card-item-tag {
+    float: right;
+    margin-top: 15px;
+    margin-right: 16px;
+  }
+
+  :global {
+    .ant-tag {
+      display: inline-block;
+      margin-right: 0 !important;
+      margin-left: 3px !important;
+      padding: 0 3px !important;
+      font-size: 10px !important;
+      transform: scale(0.83);
+    }
+  }
+
+  .card-item-content {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 16px;
+    color: #686868;
+    font-size: 12px;
+
+    .card-item-top {
+      display: -webkit-box;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+    }
+
+    .card-item-content-title {
+      color: rgba(0, 0, 0, 0.85);
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 22px;
+    }
+
+    .start-filled {
+      font-size: 12px;
+      cursor: pointer;
+    }
+
+    .card-item-content-desc {
+      margin-top: 8px;
+      margin-bottom: 3px;
+      font-size: 12px;
+      line-height: 18px;
+    }
+  }
+
+  .card-item-content-btn {
+    display: flex;
+    flex-wrap: wrap;
+    color: rgba(0, 0, 0, 0.65);
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    border-top: 1px solid #e8e8e8;
+
+    > div {
+      flex: 1;
+      height: 12px;
+      margin-top: 11px;
+      margin-bottom: 11px;
+      line-height: 12px;
+    }
+
+    .chain-btn {
+      border-left: 1px solid #e8e8e8;
+    }
+
+    > div:hover {
+      color: #4568f5;
+      cursor: pointer;
+    }
+  }
+}

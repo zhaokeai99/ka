@@ -1,0 +1,38 @@
+@import '~@/themes/index.less';
+
+.pdAuditPolicyClickRow {
+  background-color: @primary-color-3;
+}
+
+.eclipse-text {
+  display: -webkit-box;
+  max-width: 280px;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+
+.eclipse-text1 {
+  display: -webkit-box;
+  max-width: 100px;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  .list-item {
+    width: 100%;
+    display: flex;
+    .label {
+      width: 100px;
+    }
+    .content {
+      flex: 1;
+    }
+  }
+}

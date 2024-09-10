@@ -1,0 +1,45 @@
+[
+  {
+    "id": 37644798,
+    "name": "方案一",
+    "searchModel": {
+      "codes": [],
+      "orderBy": {
+        "colDesc": "tempor Duis sit ea nostrud",
+        "colName": "tempor minim dolo",
+        "orderEnum": "DESC"
+      },
+      "params": [
+        {
+          "colDesc": "学历",
+          "colName": "degree",
+          "colWebType": "INPUT",
+          "value": "学士学位"
+        },
+        {
+          "colDesc": "姓名",
+          "colName": "manager_name",
+          "colWebType": "INPUT",
+          "value": "皮卡丘"
+        }
+      ],
+      "periodEnum": "B1M",
+      "results": [
+        {
+          "colDesc": "姓名",
+          "colName": "manager_name",
+          "returnTypeEnum": "SINGLE",
+          "supportResult": {
+            "showType": "url",
+            "content": "/production/manegerDetail/${code}",
+            "sorter": true
+          },
+          "value": {}
+        }
+      ],
+      "searcherTypeEnum": "FUND_CORP",
+      "time": "fugiat sunt labore id reprehenderit"
+    },
+    "searcherType": "FUND_CORP"
+  }
+]

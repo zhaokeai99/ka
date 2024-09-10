@@ -1,0 +1,19 @@
+@import '~@/themes/index.less';
+
+.stock {
+  .normal-point {
+    color: @primary-color;
+    text-align: left;
+    cursor: pointer;
+    :global {
+      .ant-typography {
+        color: @primary-color;
+      }
+    }
+  }
+  :global {
+    .ant-form-item-label > label {
+      font-size: 12px !important;
+    }
+  }
+}

@@ -1,0 +1,244 @@
+.search_word .search_word_space:last-child {
+    display: none;
+}
+
+
+.search_form {
+    overflow: hidden;
+    transition: max-height 1s, height 1s;
+    -webkit-transition: max-height 1s, height 1s;
+}
+
+.search_form .item {
+    transition: visibility 0s linear 0.7s, opacity 0.7s ease-in-out;
+    -webkit-transition: max-height 1s, height 1s;
+}
+
+.btn_expend {
+    width: 56px;
+    text-align: center;
+    background: #5e93fd;
+    color: #fff;
+    height: 14px;
+    border-radius: 3px;
+    display: inline-block;
+    cursor: pointer;
+    font-family: PingFangSC-Regular, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.broker-info-list {
+    padding: 12px 0;
+}
+
+.broker-info-list .ant-list-item-action li {
+    font-family: PingFangSC-Regular, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.45);
+    line-height: 22px;
+    font-weight: 400;
+}
+
+
+.broker-info-list .ant-list-item-meta {
+    margin-bottom: 12px;
+    overflow: hidden;
+    height: 58px;
+}
+
+.broker-info-list .extra-pic-div {
+    position: relative;
+    width: 147px;
+    height: 92px;
+}
+
+.broker-info-list .list-tag,
+.meeting-details .list-tag{
+    font-family: PingFangSC-Medium, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    background: #FFF2EB;
+    font-size: 12px;
+    color: #F27C49;
+    border: #FFF2EB;
+}
+
+.broker-info-list .list-tag2,
+.meeting-details .list-tag2{
+    font-family: PingFangSC-Medium, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    background: #F0F5FF  ;
+    font-size: 12px;
+    color: #4568F5;
+    border: #FFF2EB;
+}
+
+.broker-info-list .ant-list-item-meta-title,
+.meeting-details .ant-modal-title{
+    font-family: PingFangSC-Medium, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.85);
+    line-height: 24px;
+    font-weight: bold;
+    height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+}
+
+.broker-info-list .ant-list-item-action {
+    margin: 0;
+}
+
+
+.ant-tag-checkable-checked {
+    background: #5e93fd !important;
+}
+
+.list-item-type-label {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    background: rgb(94, 147, 253);
+    padding: 2px 5px;
+    border-radius: 3px;
+    display: inline-block;
+    top: 5px;
+    position: absolute;
+    right: 5px;
+}
+
+.list-item-content {
+    font-family: PingFangSC-Regular, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.65);
+    text-align: justify;
+    line-height: 24px;
+    font-weight: 400;
+    white-space: pre-line;
+    word-break: break-all;
+    height: auto;
+    overflow: hidden;
+    transition: max-height 1s, height 1s;
+    -webkit-transition: max-height 1s, height 1s;
+}
+
+.cal_meeting_title > div {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    width: auto;
+}
+
+.ant-picker-cell-selected .ant-badge {
+    color: #fff;
+}
+
+.ant-picker-cell:not(.ant-picker-cell-in-view) .ant-badge {
+    color: rgba(0, 0, 0, 0.25);
+}
+
+.attention-card-title {
+    font-family: PingFangSC-Medium, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.85);
+    line-height: 24px;
+    font-weight: bold;
+    padding: 0 0 12px 0;
+}
+
+.attention-div {
+    height: 70px;
+    background: #FAFAFA 100%;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+.attention-div:hover {
+    background: #F0F5FF 100%;
+    cursor: pointer;
+}
+
+.attention-div .attention-title {
+    margin-top: 9px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 14px;
+    color: #4E5772;
+}
+
+.attention .attention-div:last-child {
+    margin: 0;
+}
+
+.attention-div .attention-content {
+    margin-top: 4px;
+    height: 26px;
+    line-height: 26px;
+    font-size: 24px;
+    color: #5e93fd;
+}
+
+.meeting-calendar .ant-pro-card-header {
+    border-bottom: none;
+}
+
+.meeting-calendar .ant-pro-card-header .ant-pro-card-title {
+    font-family: PingFangSC-Medium, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.85);
+    line-height: 24px;
+    font-weight: bold;
+}
+
+.meeting-date-title {
+    background: #F2F4F6;
+    border-radius: 2px;
+    width: 120px;
+    height: 28px;
+    font-family: PingFangSC-Regular, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.85);
+    text-align: center;
+    line-height: 28px;
+    margin-bottom: 24px;
+}
+
+.cal_meeting_title {
+    display: inline-table;
+    width: calc(100% - 50px);
+    font-family: PingFangSC-Regular, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.65);
+    text-align: justify;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+.cal_meeting_time {
+    font-family: HelveticaNeue, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.85);
+    text-align: justify;
+    line-height: 22px;
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+.broker-title-a-style{
+    color:rgba(0, 0, 0, 0.85) !important;
+}
+.broker-title-a-style:hover{
+     color: #5e93fd !important;
+}
+.broker-content-unselect {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select: none;
+
+    /* 以下两个属性目前并未支持，写在这里为了减少风险 */
+    -o-user-select: none;
+    user-select: none;
+}

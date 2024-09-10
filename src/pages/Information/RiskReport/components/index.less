@@ -1,0 +1,34 @@
+@import '~@/themes/index.less';
+
+.form-row {
+  // display: block;
+  :global {
+    .ant-form-item {
+      margin-bottom: 0 !important;
+    }
+  }
+}
+
+.detail-link {
+  color: @primary-color;
+  cursor: pointer;
+}
+.card-wrap {
+  margin-top: 10px;
+}
+.title-wrap {
+  display: flex;
+  align-items: center;
+}
+.modal-title {
+  margin-right: 20px;
+}
+
+.text-ellipsis {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}

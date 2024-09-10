@@ -1,0 +1,31 @@
+@import '~@/themes/index.less';
+
+.subject-detail {
+  .base-info-title {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 12px;
+    font-size: 16px;
+  }
+
+  .base-info-label {
+    margin-bottom: 6px;
+    font-size: 14px;
+  }
+  .base-info-value {
+    color: @grey-6;
+    font-size: 12px;
+  }
+
+  .normal-point {
+    color: @primary-color;
+    text-align: left;
+    cursor: pointer;
+    :global {
+      .ant-typography {
+        color: @primary-color;
+      }
+    }
+  }
+}

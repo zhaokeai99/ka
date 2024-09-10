@@ -1,0 +1,46 @@
+@import '~@/themes/index.less';
+
+.text-ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.list-header {
+  display: flex;
+  align-items: center;
+  line-height: 32px;
+}
+.header-title {
+  overflow: hidden;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 15px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.content-detail {
+  padding-right: 5px;
+  cursor: pointer;
+}
+.header-date {
+  margin: 0 8px;
+  font-size: 14px;
+}
+.header-state {
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+}
+.list-wrap {
+  width: 100%;
+}
+.list-content {
+  display: flex;
+  margin: 4px 0 8px;
+}
+.blue {
+  color: @primary-color;
+}
+.tag {
+  margin: 0 2px;
+}

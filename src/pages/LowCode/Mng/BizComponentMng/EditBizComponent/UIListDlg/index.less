@@ -1,0 +1,33 @@
+.search-area {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+
+  :global(.ant-card-head) {
+    min-height: 30px;
+    padding: 0 10px;
+  }
+
+  :global(.ant-card-head-title) {
+    padding: 4px 0;
+  }
+
+  :global(.ant-card-extra) {
+    padding: 4px 0;
+  }
+
+  :global(.ant-card-body) {
+    padding: 4px;
+  }
+}
+
+.footer-area {
+  display: flex;
+  justify-content: flex-end;
+}

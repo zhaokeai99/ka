@@ -1,0 +1,19 @@
+@import '~@/themes/index.less';
+
+.left-tree {
+  .left-tree-render {
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+  }
+
+  :global {
+    .ant-tree-node-selected {
+      color: #fff !important;
+      background-color: #83adfd !important;
+    }
+  }
+}

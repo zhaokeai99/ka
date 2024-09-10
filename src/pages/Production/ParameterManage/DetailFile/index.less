@@ -1,0 +1,27 @@
+.parameter-manage {
+  .extra-btn {
+    position: absolute;
+    top: 50%;
+    right: 21%;
+    transform: translateY(-50%);
+  }
+  :global {
+    .ant-select-show-search.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+      height: auto;
+    }
+    .ant-input[disabled] {
+      color: rgba(0, 0, 0, 0.7);
+    }
+
+    .ant-radio-disabled + span,
+    .ant-checkbox-disabled + span {
+      color: rgba(0, 0, 0, 0.7);
+    }
+
+    .ant-form-item-explain,
+    .ant-form-item-extra {
+      color: rgba(0, 0, 0, 0.5);
+      font-size: 13px;
+    }
+  }
+}

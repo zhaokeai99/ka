@@ -1,0 +1,52 @@
+.datatypeIcon img {
+    object-fit: scale-down;
+}
+.datatypeIcon svg{
+    width: 100%;
+    height: 100%;
+}
+
+.task-item {
+    cursor: pointer;
+}
+
+.task-item-check{
+    background: #dbedff;
+}
+
+.ant-btn-dangerous.ant-btn-primary:hover, .ant-btn-dangerous.ant-btn-primary:focus {
+    color: #fff !important;
+    border-color: #ff7875 !important;
+    background: #ff7875 !important;
+}
+
+.ant-btn-dangerous {
+    color: #ff4d4f !important;
+    color: var(--ant-error-color) !important;
+    border-color: #ff4d4f !important;
+    border-color: var(--ant-error-color) !important;
+    background: #fff !important;
+}
+.ant-btn-dangerous.ant-btn-primary {
+    color: #fff !important;
+    border-color: #ff4d4f !important;
+    border-color: var(--ant-error-color) !important;
+    background: #ff4d4f !important;
+    background: var(--ant-error-color) !important;
+    text-shadow: 0 -1px 0 rgb(0 0 0 / 12%) !important;
+    box-shadow: 0 2px 0 rgb(0 0 0 / 5%) !important;
+}
+
+.ant-btn-green.ant-btn-primary {
+    color: #fff !important;
+    border-color: #52c41a !important;
+    background: #52c41a !important;
+    text-shadow: 0 -1px 0 rgb(0 0 0 / 12%) !important;
+    box-shadow: 0 2px 0 rgb(0 0 0 / 5%) !important;
+}
+
+.ant-btn-green.ant-btn-primary:hover, .ant-btn-green.ant-btn-primary:focus {
+    color: #fff !important;
+    border-color: #73d13d !important;
+    background: #73d13d !important;
+}

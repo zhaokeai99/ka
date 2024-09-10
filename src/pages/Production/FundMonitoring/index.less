@@ -1,0 +1,66 @@
+.rectangular_Tree {
+  position: relative;
+  height: calc(100vh - 260px);
+  min-height: 500px;
+
+  .legend {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    width: 45%;
+    padding: 2px;
+    background-color: rgba(0, 0, 0, 0.829);
+    border-radius: 3px;
+
+    div {
+      width: 14%;
+      margin-left: 3px;
+      color: #fff;
+      text-align: center;
+      border-radius: 3px;
+
+      &:nth-child(1) {
+        margin-left: 0;
+        background: #30cc5a;
+      }
+
+      &:nth-child(2) {
+        background: #2f9e4f;
+      }
+
+      &:nth-child(3) {
+        background: #35764e;
+      }
+
+      // &:nth-child(4) {
+      //   background: #155800;
+      // }
+
+      &:nth-child(4) {
+        background: #414554;
+      }
+
+      &:nth-child(5) {
+        background: #8b444e;
+      }
+
+      &:nth-child(6) {
+        background: #bf4045;
+      }
+
+      &:nth-child(7) {
+        background: #f63538;
+      }
+
+      // &:nth-child(9) {
+      //   background: #f00;
+      // }
+    }
+  }
+}
+.modal {
+  .ant-modal-body {
+    height: 420px;
+  }
+}

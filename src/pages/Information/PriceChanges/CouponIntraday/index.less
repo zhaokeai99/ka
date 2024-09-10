@@ -1,0 +1,48 @@
+@import '~@/themes/index.less';
+
+.coupon-intraday {
+  .base-info-title {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 12px;
+    overflow: hidden;
+    font-size: 16px;
+
+    .base-info-text {
+      display: flex;
+      flex: 1;
+      align-items: center;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+    .base-info-nav {
+      display: flex;
+      align-items: center;
+      white-space: nowrap;
+      a {
+        margin-left: 12px;
+        font-size: 12px;
+        font-style: italic;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .base-info-name {
+    overflow: hidden;
+    font-weight: 600;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .base-info-label {
+    margin-bottom: 6px;
+    font-size: 14px;
+  }
+  .base-info-value {
+    color: @grey-6;
+    font-size: 12px;
+  }
+}

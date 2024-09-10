@@ -1,0 +1,74 @@
+@import '~@/themes/index.less';
+
+.tabs-card {
+  :global {
+    .ant-card-body {
+      padding: 0 !important;
+    }
+  }
+}
+
+th.text-center,
+td.text-center,
+.text-center,
+.ant-table-thead > tr > th.text-center {
+  text-align: center;
+}
+
+th.text-right,
+td.text-right,
+.text-right,
+.ant-table-thead > tr > th.text-right {
+  text-align: right;
+}
+
+th.text-left,
+td.text-left,
+.text-left {
+  text-align: left;
+}
+
+th.head-center,
+.ant-table-thead > tr > th.head-center {
+  text-align: center !important;
+}
+
+// begin 被选中的表格行的样式
+.clickRowStyl {
+  background-color: #e6f7ff;
+}
+.portfolioClassName {
+  .ant-table-tbody > tr:hover:not(.ant-table-expanded-row) > td {
+    background-color: #e6f7ff;
+  }
+
+  .ant-table-tbody
+    > tr:hover:not(.ant-table-expanded-row):not(.ant-table-row-selected):not(.clickRowStyl)
+    > td {
+    background: #fff;
+  }
+}
+
+.tabs_style .ant-pro-table > .ant-pro-card > .ant-pro-card-body {
+  padding: 0 !important;
+}
+// end 被选中的表格行的样式
+
+.notHover {
+  .ant-table-placeholder:hover {
+    background: #fff !important;
+  }
+  .ant-table-tbody > tr:hover:not(.ant-table-expanded-row) > td,
+  .ant-table-tbody.ant-table-row-hover,
+  .ant-table-tbody.ant-table-row-hover > td {
+    background: #fff !important;
+  }
+}
+
+.inputNumber_One {
+  width: 100%;
+  color: blue;
+}
+.inputNumber_Two {
+  width: 100%;
+}

@@ -1,0 +1,70 @@
+.tree-container {
+  display: flex;
+}
+.tree-style {
+  width: 300px;
+  height: 450px;
+  overflow: auto;
+  :global(.ant-tree-switcher) {
+    color: #333;
+    background-color: transparent;
+  }
+}
+.tree-slider {
+  width: 240px;
+  margin-left: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  border-left: 1px solid rgba(0, 0, 0, 0.06);
+  .tag-title {
+    padding: 2px 0;
+  }
+  .tag-list {
+    height: 450px;
+    overflow: auto;
+  }
+  .tag-container {
+    padding: 2px 0;
+  }
+  .multi-tag-container {
+    margin-bottom: 4px;
+    padding: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+  }
+  .tag {
+    width: 110px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+    text-overflow: ellipsis;
+  }
+  .picker-outer {
+    display: flex;
+    margin-bottom: 8px;
+  }
+
+  .delete-icon {
+    width: 16px;
+    color: #d9d9d9;
+    vertical-align: super;
+  }
+  .add-icon {
+    width: 16px;
+    color: #1890ff;
+    vertical-align: super;
+  }
+}
+
+.tree-leaf {
+  display: block;
+  .tree-leaf-desc {
+    display: none;
+    margin-left: 10px;
+  }
+  &:hover {
+    .tree-leaf-desc {
+      display: inline;
+      color: #f27c49;
+    }
+  }
+}

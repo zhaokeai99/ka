@@ -1,0 +1,35 @@
+@import '~@/themes/index.less';
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  .title {
+    margin-right: 12px;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .deal-date {
+    color: #6b6b6b;
+    font-size: 14px;
+  }
+}
+
+.small-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 6px 12px;
+  font-weight: 500;
+  border-bottom: 1px solid @primary-card-header-line;
+  &::before {
+    display: block;
+    width: 4px;
+    height: 14px;
+    margin-right: 8px;
+    background-color: @card-title-before-icon;
+    content: '';
+  }
+}

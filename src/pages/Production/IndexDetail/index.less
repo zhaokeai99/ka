@@ -1,0 +1,48 @@
+.itemStyle {
+  line-height: 30px;
+  > label {
+    color: #333;
+    font-weight: 500;
+    text-align: right;
+  }
+  > span {
+    color: #666;
+  }
+}
+
+.step-wrap {
+  :global(.ant-steps-item-icon) {
+    width: 20px !important;
+    height: 20px !important;
+    font-size: 12px;
+    line-height: 20px !important;
+  }
+  :global(.ant-steps-item-content) {
+    width: 75% !important;
+    :global(.ant-steps-item-title) {
+      font-size: 14px !important;
+      line-height: 24px;
+      white-space: normal !important;
+    }
+    :global(.ant-steps-item-description) {
+      max-width: 100% !important;
+      font-size: 12px !important;
+      line-height: 14px;
+    }
+  }
+}
+
+.toolTipContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 12px 12px 12px 0;
+  .item {
+    display: inline-flex;
+    justify-content: space-between;
+    font-size: 12px;
+    line-height: 25px;
+    .label {
+      margin-right: 25px;
+    }
+  }
+}

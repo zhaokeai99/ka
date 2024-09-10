@@ -1,0 +1,80 @@
+.IndexFundMainPage {
+  .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+
+    .title {
+      margin-right: 12px;
+      font-weight: 600;
+      font-size: 16px;
+    }
+    :global {
+      .ant-form-item {
+        margin-bottom: 0;
+      }
+    }
+  }
+  :global {
+    .ant-table.ant-table-small {
+      font-size: 12px;
+    }
+    .ant-table.ant-table-small .ant-table-thead > tr > th {
+      padding: 8px 4px;
+    }
+  }
+
+  .allMarketCapitalTable,
+  .thFundMobilityTable,
+  .industryProductCapitalTable,
+  .fundCompanyScaleTopTable {
+    .more {
+      font-size: 12px;
+    }
+    :global {
+      .ant-table-summary .ant-table-cell {
+        text-align: center;
+      }
+    }
+  }
+
+  .flowTypeBtn {
+    :global {
+      .ant-radio-button-wrapper {
+        height: 24px;
+        padding: 0 7px;
+        font-size: 12px;
+        border-radius: 2px;
+      }
+      .ant-radio-button-checked {
+        background: #1890ff;
+        background-color: #1890ff;
+      }
+    }
+  }
+  .exportbtn {
+    :global {
+      .ant-btn {
+        height: 24px;
+        margin-left: 10px;
+        padding: 0 7px;
+        font-size: 12px;
+        border-radius: 2px;
+      }
+    }
+  }
+  .fundCompanyScaleTopTable {
+    .selected-row {
+      background-color: #ffdbdc;
+    }
+  }
+}
+
+.thFundMobilitySampleDetailTable {
+  .selected-row {
+    background-color: #ffdbdc;
+    border-top: 10px solid #fff;
+  }
+}

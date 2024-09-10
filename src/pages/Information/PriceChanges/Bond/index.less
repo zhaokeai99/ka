@@ -1,0 +1,83 @@
+@import '~@/themes/index.less';
+
+.getOverflowProp(@width:0px) {
+  max-width: @width;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: left;
+  text-overflow: ellipsis;
+}
+
+.bond-container {
+  .bond-tab {
+    :global {
+      .ant-tabs-nav {
+        margin-bottom: 0;
+      }
+      .ant-pro-table {
+        .ant-pro-table-search-query-filter {
+          margin-bottom: 0 !important;
+          padding-right: 0 !important;
+          padding-left: 0 !important;
+        }
+        .ant-pro-card-body {
+          padding-top: 0 !important;
+        }
+      }
+      .ant-tabs-tab {
+        border-width: 0;
+      }
+      .ant-form-item-label > label {
+        font-size: 12px !important;
+      }
+    }
+  }
+
+  .digit-after {
+    min-width: 60px;
+    white-space: nowrap;
+    text-align: left;
+  }
+
+  .company-hide {
+    .getOverflowProp(150px);
+  }
+
+  .short-hide {
+    .getOverflowProp(80px);
+  }
+
+  .abnormal-point {
+    text-align: left;
+    cursor: pointer;
+    :global {
+      .ant-typography {
+        color: #ec6464;
+      }
+    }
+  }
+
+  .normal-point {
+    text-align: left;
+    cursor: pointer;
+    :global {
+      .ant-typography {
+        color: @primary-color;
+      }
+    }
+  }
+
+  :global {
+    .ant-picker {
+      width: 100%;
+    }
+  }
+
+  .bond-date-time {
+    :global {
+      .ant-picker-input > input {
+        font-size: 12px !important;
+      }
+    }
+  }
+}
