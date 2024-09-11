@@ -28,7 +28,7 @@ functions/*
 .temp/**
 
 # umi
-.umi
+.umi/.cache
 .umi-production
 
 # screenshot

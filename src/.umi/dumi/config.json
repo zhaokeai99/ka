@@ -1,0 +1,85 @@
+{
+  "menus": {
+    "en-US": {
+      "*": [
+        {
+          "path": "/~docs",
+          "title": "产品信息系统",
+          "meta": {
+            "order": null
+          }
+        },
+        {
+          "title": "Components",
+          "path": "/~docs/components",
+          "meta": {},
+          "children": [
+            {
+              "path": "/~docs/components/thfund-front-component",
+              "title": "Support",
+              "meta": {}
+            }
+          ]
+        },
+        {
+          "title": "Components",
+          "path": "/~docs/components/thfund-front-component/src/components",
+          "meta": {},
+          "children": [
+            {
+              "path": "/~docs/components/thfund-front-component/src/components/drag-modal",
+              "title": "原点",
+              "meta": {}
+            },
+            {
+              "path": "/~docs/components/thfund-front-component/src/components/excel-handler",
+              "title": "Excel Component",
+              "meta": {}
+            },
+            {
+              "path": "/~docs/components/thfund-front-component/src/components/schema-form-plus",
+              "title": "动态表单组件",
+              "meta": {}
+            }
+          ]
+        },
+        {
+          "title": "Pages",
+          "path": "/~docs/pages/low-code/mng",
+          "meta": {},
+          "children": [
+            {
+              "path": "/~docs/pages/low-code/mng/biz-component-mng",
+              "title": "业务 组件管理页面，包含业务组件注册，录入，复制，编辑，删除，查询等能力",
+              "meta": {}
+            },
+            {
+              "path": "/~docs/pages/low-code/mng/page-mng",
+              "title": "页面 管理页面，包含页面注册，录入，编辑，删除，查询等能力",
+              "meta": {}
+            },
+            {
+              "path": "/~docs/pages/low-code/mng/uicomponent-mng",
+              "title": "UI 组件管理页面，包含 UI 组件注册，录入，编辑，删除，查询等能力",
+              "meta": {}
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "locales": [
+    {
+      "name": "en-US",
+      "label": "English"
+    }
+  ],
+  "navs": {},
+  "title": "fundportal",
+  "mode": "doc",
+  "repository": {
+    "url": "",
+    "branch": "master"
+  },
+  "theme": {}
+}
